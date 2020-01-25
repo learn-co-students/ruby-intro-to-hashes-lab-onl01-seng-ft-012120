@@ -1,27 +1,39 @@
 def new_hash
-
+  return Hash.new
 end
 
-def actor
-
+def my_hash
+  new_hash = {
+  :created => Time.now,
+  :message => "Hello world!"
+  }
 end
 
-def monopoly
-	monopoly = {}
-
+def pioneer
+  my_hash = {
+  :name => 'Grace Hopper'
+  }
 end
 
-def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+def id_generator
+  my_hash = {
+  :id => 5
+  }
 end
 
-def monopoly_with_third_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+def my_hash_creator(key, value)
+  my_hash = {}
+  my_hash[key] = value
+  return my_hash
 end
 
-def monopoly_with_fourth_tier
-	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
-
+def read_from_hash(hash, key)
+  return hash[key]
 end
+
+def update_counting_hash(hash, key)
+  keyExists = hash[key] ? hash[key] += 1 : hash[key] = 1
+  return hash
+end
+
+
