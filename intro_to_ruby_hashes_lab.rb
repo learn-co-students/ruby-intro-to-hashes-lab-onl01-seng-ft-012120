@@ -1,8 +1,16 @@
-def new_hash
+def new_hash {"hello"
+  :hello = "greeting"
+  puts "say hello"
+  new_hash.each do |greetings|
+    #greeting 
+    }
+  end 
+  
+  
+  end
 
-end
-
-def actor
+def actor_who_won_oscar = ["leonardo Dicaprio"]
+  
 
 end
 
