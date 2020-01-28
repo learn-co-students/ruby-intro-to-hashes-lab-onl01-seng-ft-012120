@@ -2,8 +2,13 @@ require 'yaml'
 
 RSpec.configure do |config|
 
-  def __
-    # raise "replace underscore with code"
+  def New_hash ({})
+    Actor = name
+    { name: "the Rock"}
+    puts 'Dwayne "[name]" Johnson'.
+  end
+  
+    
   end
 
 end
