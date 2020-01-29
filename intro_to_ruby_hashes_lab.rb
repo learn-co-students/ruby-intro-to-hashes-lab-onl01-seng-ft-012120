@@ -1,5 +1,6 @@
-def new_hash
+def new_hash do
 
+        expect(new_hash).to eq({})
 end
 
 def actor
