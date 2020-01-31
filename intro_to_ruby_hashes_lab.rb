@@ -1,27 +1,31 @@
-def new_hash
+the_foods = {
+  "Fruits" => {
+      citrus: ["lemons", "lime", "oranges"],
+      berries: ["strawberries", "blueberries", "gooseberries", "blackberries"]
+  }
+  "Veggies" => {
+      roots: ["beets", "carrots", "radishes"],
+      leafy: ["kale", "lettuce", "bok choy"]
+  }
+}
 
-end
+# the_foods = hash
 
-def actor
+# keys = :citrus and :berries
 
-end
+# values = each key has a value of an array
 
-def monopoly
-	monopoly = {}
+# to get the first fruit in the citrus array, set a variable first.
 
-end
+   sours = fruits[:citrus]
+   sours[1]
 
-def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+   #output
+   "lime"
+# to get the second vegetable in the roots array, set a variable first.
 
-end
+   rabbit_food = veggies[:roots]
+   rabbit_food[1]
 
-def monopoly_with_third_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
-end
-
-def monopoly_with_fourth_tier
-	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
-
-end
+   #output
+   "carrot"
